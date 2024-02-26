@@ -7,6 +7,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Beta Buddy",
   description: "Stay tuned for Beta Buddy!",
+  icons: [
+    {
+      rel: "icon",
+      type: "image/png",
+      url: "/icon.png",
+      media: "(prefers-color-scheme: light)",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      url: "/icon-dark.png",
+      media: "(prefers-color-scheme: dark)",
+    },
+  ],
 };
 
 export default function RootLayout({
