@@ -2,11 +2,12 @@ import Image from "next/image";
 
 export default function PhotoGuide() {
   return (
-    <div className="flex flex-col h-screen items-center">
-      <div className="my-10 w-[70%]">
-        <h2 className="text-3xl font-bold text-center">
+    <div className="flex flex-col h-screen items-center px-4 md:px-0">
+      <div className="py-10 w-full md:w-[70%]">
+        <h2 className="text-2xl md:text-3xl font-bold text-center">
           How to take photos for Beta Buddy?
         </h2>
+
         {/* Introduction */}
         <div className="mt-8">
           <div className="flex items-center">
@@ -33,13 +34,14 @@ export default function PhotoGuide() {
             recommend a smartphone with high-performance camera function.
           </p>
         </div>
+
         {/* Step 1 */}
         <div className="mt-8">
           <div className="flex items-center">
-            <div className="flex items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black w-10 h-10">
+            <div className="flex items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black w-10 h-8 md:w-10 md:h-10">
               1
             </div>
-            <h3 className="ml-4 text-xl font-semibold">
+            <h3 className="ml-4 text-lg md:text-xl font-semibold">
               Step 1: Shoot the problem you want to climb.
             </h3>
           </div>
@@ -47,19 +49,18 @@ export default function PhotoGuide() {
             Take photos of the problem from different angles to have a clear
             reference to work with.
           </p>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
-            {/* Text labels in a separate grid row */}
-            <div className="bg-black text-white px-2 py-1 rounded-md text-center font-bold text-sm">
+          <div className="mt-4 grid grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4">
+            <div className="row-start-1 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
               Take around 20 pictures
             </div>
-            <div className="bg-black text-white px-2 py-1 rounded-md text-center font-bold text-sm">
-              Top to bottom in one shot
-            </div>
-            <div className="bg-black text-white px-2 py-1 rounded-md text-center font-bold text-sm">
+            <div className="row-start-3 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
               3 to 5 directions wrapping around the problem
             </div>
+            <div className="row-start-5 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
+              Top to bottom in one shot
+            </div>
 
-            {/* Images in the next grid row */}
+            {/* Images */}
             <div className="relative h-60 w-full">
               <Image
                 src="/images/picture-20.png"
@@ -89,13 +90,14 @@ export default function PhotoGuide() {
             </div>
           </div>
         </div>
+
         {/* Step 2 */}
         <div className="mt-8">
           <div className="flex items-center">
-            <div className="flex items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black w-10 h-10">
+            <div className="flex items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black w-8 h-8 md:w-10 md:h-10">
               2
             </div>
-            <h3 className="ml-4 text-xl font-semibold">
+            <h3 className="ml-4 text-lg md:text-xl font-semibold">
               Step 2: Post data via website
             </h3>
           </div>
@@ -118,6 +120,7 @@ export default function PhotoGuide() {
             </a>
           </div>
         </div>
+
         {/* Conclusion or additional notes */}
         {/* 
         <div className="mt-8">
