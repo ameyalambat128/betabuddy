@@ -36,7 +36,7 @@ export default function PhotoGuide() {
         {/* Step 1 */}
         <div className="mt-8">
           <div className="flex items-center">
-            <div className="flex items-center justify-center rounded-full bg-black text-white w-10 h-10">
+            <div className="flex items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black w-10 h-10">
               1
             </div>
             <h3 className="ml-4 text-xl font-semibold">
@@ -92,7 +92,7 @@ export default function PhotoGuide() {
         {/* Step 2 */}
         <div className="mt-8">
           <div className="flex items-center">
-            <div className="flex items-center justify-center rounded-full bg-black text-white w-10 h-10">
+            <div className="flex items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black w-10 h-10">
               2
             </div>
             <h3 className="ml-4 text-xl font-semibold">
@@ -112,7 +112,7 @@ export default function PhotoGuide() {
             <a
               href="mailto:alambat@asu.edu"
               target="_blank"
-              className="inline-block px-6 py-2 bg-black text-white rounded-md text-center"
+              className="inline-block px-6 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md text-center"
             >
               Post the problem
             </a>
