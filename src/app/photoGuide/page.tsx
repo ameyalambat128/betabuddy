@@ -29,9 +29,10 @@ export default function PhotoGuide() {
             <h3 className="ml-4 text-xl font-semibold">Introduction</h3>
           </div>
           <p className="mt-4">
-            Gym is the place to climb. Avoid crowds so as not to inconvenience.
-            3D scanning, movie shooting can be done with smartphone. We
-            recommend a smartphone with high-performance camera function.
+            This is the guide on how to take photos for Beta Buddy. Make sure
+            the photo is just of the wall and there are no obstructions or
+            objects in the photo besides the wall. Make sure you use a camera
+            with good photo quality.
           </p>
         </div>
 
@@ -46,18 +47,19 @@ export default function PhotoGuide() {
             </h3>
           </div>
           <p className="mt-4">
-            Take photos of the problem from different angles to have a clear
-            reference to work with.
+            Ensure all angles of the climb are captured; otherwise not all
+            surfaces will be modeled properly. The more photos, the better the
+            model.
           </p>
           <div className="mt-4 grid grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4">
             <div className="row-start-1 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              Take around 20 pictures
+              Take 20 pictures or more
             </div>
             <div className="row-start-3 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              3 to 5 directions wrapping around the problem
+              Ensure all angles are captured
             </div>
             <div className="row-start-5 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              Top to bottom in one shot
+              Have a photo that has the top to bottom in one shot
             </div>
 
             {/* Images */}
@@ -81,7 +83,7 @@ export default function PhotoGuide() {
             </div>
             <div className="relative h-60 w-full">
               <Image
-                src="/images/vertical-angles.png"
+                src="/images/top-to-bottom.png"
                 alt="Step 1 Image 3"
                 layout="fill"
                 objectFit="cover"
