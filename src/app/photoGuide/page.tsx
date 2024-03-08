@@ -47,7 +47,7 @@ export default function PhotoGuide() {
             </h3>
           </div>
           <p className="mt-4">
-            Ensure all angles of the climb are captured; otherwise not all
+            Ensure all angles of the wall are captured; otherwise not all
             surfaces will be modeled properly. The more photos, the better the
             model.
           </p>
