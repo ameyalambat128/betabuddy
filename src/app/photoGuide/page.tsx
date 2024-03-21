@@ -114,7 +114,7 @@ export default function PhotoGuide() {
           </p>
           <div className="mt-4">
             <a
-              href="mailto:alambat@asu.edu"
+              href="mailto:betabuddy24@gmail.com?subject=Photo Submission: BetaBuddy&body=Please fill in the following information:%0D%0A %0D%0AGym Name: %0D%0A %0D%0ALocation (City, State): %0D%0A %0D%0AGrades of Climbs (Required if your gym does not use Kaya): "
               target="_blank"
               className="inline-block px-6 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md text-center"
             >
@@ -122,17 +122,6 @@ export default function PhotoGuide() {
             </a>
           </div>
         </div>
-
-        {/* Conclusion or additional notes */}
-        {/* 
-        <div className="mt-8">
-          <h3 className="text-xl font-semibold">
-            Conclusion or Additional Notes
-          </h3>
-          <p className="mt-4">
-            Any concluding remarks or additional notes can go here.
-          </p>
-        </div> */}
       </div>
     </div>
   );
