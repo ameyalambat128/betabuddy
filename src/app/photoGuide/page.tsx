@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
-export default function PhotoGuide() {
+export default function Page() {
   return (
-    <div className="flex flex-col h-screen items-center px-4 md:px-0">
+    <div className="flex flex-col lg:h-screen items-center px-4 md:px-0">
       <div className="py-10 w-full md:w-[70%]">
         <h2 className="text-2xl md:text-3xl font-bold text-center">
           How to take photos for Beta Buddy?
@@ -113,26 +114,21 @@ export default function PhotoGuide() {
             photos.
           </p>
           <div className="mt-4">
-            <a
+            {/* <a
               href="mailto:alambat@asu.edu"
               target="_blank"
               className="inline-block px-6 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md text-center"
             >
               Post the problem
-            </a>
+            </a> */}
+            <Link
+              className="inline-block px-6 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md text-center"
+              href="/uploadImages"
+            >
+              Post Images
+            </Link>
           </div>
         </div>
-
-        {/* Conclusion or additional notes */}
-        {/* 
-        <div className="mt-8">
-          <h3 className="text-xl font-semibold">
-            Conclusion or Additional Notes
-          </h3>
-          <p className="mt-4">
-            Any concluding remarks or additional notes can go here.
-          </p>
-        </div> */}
       </div>
     </div>
   );
