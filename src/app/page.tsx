@@ -12,7 +12,7 @@ export default function Home() {
                 Coming Soon!
               </div>
               <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Beta Buddy - Your Ultimate Rock Climbing Companion
+                Beta Buddy - The Ultimate Rock Climbing Guide 
               </h1>
             </div>
             <Link
