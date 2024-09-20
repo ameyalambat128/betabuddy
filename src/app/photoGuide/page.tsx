@@ -52,10 +52,10 @@ export default function PhotoGuide() {
           </p>
           <div className="mt-4 grid grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4">
             <div className="row-start-1 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              Take 20 pictures or more
+              We only need one picture of the wall. 
             </div>
             <div className="row-start-3 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              Ensure all angles are captured
+              Ensure that none of the hplds are cut off or blurry.
             </div>
             <div className="row-start-5 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
               Have a photo that has the top to bottom in one shot
@@ -104,12 +104,12 @@ export default function PhotoGuide() {
           </div>
           <p className="mt-4">
             From &quot;Post the problem&quot;, fill in the gym information in
-            the email for the data you shot. You can also fill in information
-            such as hold and setter, impression, etc.
+            the email for the data you shot. Fill in the date that you shot the 
+            hold as well. That way our database can filter using the latest photos. 
           </p>
           <p className="mt-2">
-            When it&apos;s published, we will be creating a 3D model using these
-            photos.
+            When it&apos;s published, we will be riunning an Artificial Intelligence Algorithm 
+            over the image to detect the holds and the grades of the routes. 
           </p>
           <div className="mt-4">
             <a
