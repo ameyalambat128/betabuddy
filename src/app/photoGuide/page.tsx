@@ -43,13 +43,12 @@ export default function PhotoGuide() {
               1
             </div>
             <h3 className="ml-4 text-lg md:text-xl font-semibold">
-              Step 1: Shoot the problem you want to climb.
+              Step 1: Take a Photo of the Routes and/or Holds that you want analyzed. 
             </h3>
           </div>
           <p className="mt-4">
-            Ensure all angles of the wall are captured; otherwise not all
-            surfaces will be modeled properly. The more photos, the better the
-            model.
+            We only need one photo of the wall, but keep in mind that the one photo should capture the entire route. 
+            The Algorithm will detect all the holds captured in the photo, not just holds relating to certain routes.
           </p>
           <div className="mt-4 grid grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4">
             <div className="row-start-1 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
