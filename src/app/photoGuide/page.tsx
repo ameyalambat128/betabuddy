@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
-export default function PhotoGuide() {
+export default function Page() {
   return (
-    <div className="flex flex-col h-screen items-center px-4 md:px-0">
+    <div className="flex flex-col lg:h-screen items-center px-4 md:px-0">
       <div className="py-10 w-full md:w-[70%]">
         <h2 className="text-2xl md:text-3xl font-bold text-center">
           How to take photos for Beta Buddy?
@@ -43,16 +44,19 @@ export default function PhotoGuide() {
               1
             </div>
             <h3 className="ml-4 text-lg md:text-xl font-semibold">
-              Step 1: Take a Photo of the Routes and/or Holds that you want analyzed. 
+              Step 1: Take a Photo of the Routes and/or Holds that you want
+              analyzed.
             </h3>
           </div>
           <p className="mt-4">
-            We only need one photo of the wall, but keep in mind that the one photo should capture the entire route. 
-            The Algorithm will detect all the holds captured in the photo, not just holds relating to certain routes.
+            We only need one photo of the wall, but keep in mind that the one
+            photo should capture the entire route. The Algorithm will detect all
+            the holds captured in the photo, not just holds relating to certain
+            routes.
           </p>
           <div className="mt-4 grid grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4">
             <div className="row-start-1 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              We only need one picture of the wall. 
+              We only need one picture of the wall.
             </div>
             <div className="row-start-3 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
               Ensure that none of the hplds are cut off or blurry.
@@ -104,21 +108,29 @@ export default function PhotoGuide() {
           </div>
           <p className="mt-4">
             From &quot;Post the problem&quot;, fill in the gym information in
-            the email for the data you shot. Fill in the date that you shot the 
-            hold as well. That way our database can filter using the latest photos. 
+            the email for the data you shot. Fill in the date that you shot the
+            hold as well. That way our database can filter using the latest
+            photos.
           </p>
           <p className="mt-2">
-            When it&apos;s published, we will be riunning an Artificial Intelligence Algorithm 
-            over the image to detect the holds and the grades of the routes. 
+            When it&apos;s published, we will be riunning an Artificial
+            Intelligence Algorithm over the image to detect the holds and the
+            grades of the routes.
           </p>
           <div className="mt-4">
             <a
-              href="mailto:betabuddy24@gmail.com?subject=Photo Submission: BetaBuddy&body=Please fill in the following information:%0D%0A %0D%0AGym Name: %0D%0A %0D%0ALocation (City, State): %0D%0A %0D%0AGrades of Climbs (Required if your gym does not use Kaya): "
+              href="mailto:alambat@asu.edu"
               target="_blank"
               className="inline-block px-6 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md text-center"
             >
               Post the problem
             </a>
+            <Link
+              className="inline-block px-6 py-2 bg-black text-white dark:bg-white dark:text-black rounded-md text-center"
+              href="/uploadImages"
+            >
+              Post Images
+            </Link>
           </div>
         </div>
       </div>

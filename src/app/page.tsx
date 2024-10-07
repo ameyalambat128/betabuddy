@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <section className="">
-        <div className="container px-4 md:px-6">
+        <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-10 text-center">
             <div className="space-y-4">
               <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
