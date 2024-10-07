@@ -7,15 +7,19 @@ import { useDropzone, DropzoneOptions, FileRejection } from "react-dropzone";
 interface DropzoneProps {
   className?: string; // Optional prop
 }
+
+interface FileWithPreview extends File {
+  preview: string;
+}
 interface RejectedFileWithPreview extends FileRejection {
-  file: File; // Overriding the file property to ensure it exists
+  file: File;
 }
 const Dropzone: React.FC<DropzoneProps> = ({ className }) => {
-  const [files, setFiles] = useState<File[]>([]);
+  const [files, setFiles] = useState<FileWithPreview[]>([]);
   const [rejected, setRejected] = useState<RejectedFileWithPreview[]>([]);
 
   const onDrop = useCallback(
-    (acceptedFiles: File[], fileRejections: FileRejection[]) => {
+    (acceptedFiles: FileWithPreview[], fileRejections: FileRejection[]) => {
       if (acceptedFiles.length) {
         setFiles((previousFiles) => [
           ...previousFiles,
