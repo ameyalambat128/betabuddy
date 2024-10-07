@@ -39,7 +39,7 @@ const Dropzone: React.FC<DropzoneProps> = ({ className }) => {
     accept: {
       "image/*": [],
     },
-    maxSize: 1024 * 1000,
+    maxSize: 10000 * 10000,
     onDrop,
   } as DropzoneOptions);
 
