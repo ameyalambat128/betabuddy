@@ -1,0 +1,19 @@
+{
+  "id": "mrnair1/hold-segmentation",
+  "id_no": 66348999,
+  "title": "Hold Segmentation",
+  "code_file": "hold-segmentation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "tomasslama/indoor-climbing-gym-hold-segmentation"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
