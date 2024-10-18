@@ -117,7 +117,7 @@ export default function Page() {
             Intelligence Algorithm over the image to detect the holds and the
             grades of the routes.
           </p>
-          <div className="mt-4">
+          <div className="mt-4 space-x-2">
             <a
               href="mailto:alambat@asu.edu"
               target="_blank"
