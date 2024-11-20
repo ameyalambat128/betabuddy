@@ -24,7 +24,7 @@ export default function Home() {
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white mb-10"
                   >
-                    Get access to the best climbing problems
+                    Get access to the best climbing resources
                   </CardItem>
                   <CardItem translateZ="100" className="w-full mt-4">
                     <Image
@@ -40,7 +40,6 @@ export default function Home() {
                       translateZ={20}
                       as={Link}
                       href="/uploadImages"
-                      target="__blank"
                       className="px-4 py-2 rounded-xl font-bold dark:text-white"
                     >
                       Try now →
