@@ -53,7 +53,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
           "absolute h-full w-full left-0 top-0 bg-black opacity-0 z-10",
           selected?.id ? "pointer-events-auto" : "pointer-events-none"
         )}
-        animate={{ opacity: selected?.id ? 0.3 : 0 }}
+        animate={{ opacity: selected?.id ? 0 : 0 }}
       />
     </div>
   );
@@ -82,7 +82,7 @@ const SelectedCard = ({ selected }: { selected: Card | null }) => {
           opacity: 0,
         }}
         animate={{
-          opacity: 0.6,
+          opacity: 0.1,
         }}
         className="absolute inset-0 h-full w-full bg-black opacity-60 z-10"
       />

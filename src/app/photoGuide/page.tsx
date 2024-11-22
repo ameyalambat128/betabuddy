@@ -31,9 +31,9 @@ export default function Page() {
           </div>
           <p className="mt-4">
             This is the guide on how to take photos for Beta Buddy. Make sure
-            the photo is just of the wall and there are no obstructions or
-            objects in the photo besides the wall. Make sure you use a camera
-            with good photo quality.
+            the photos are just of the wall and there are no obstructions or
+            objects in them besides the wall. Make sure you use a camera with
+            good picture quality.
           </p>
         </div>
 
@@ -49,20 +49,22 @@ export default function Page() {
             </h3>
           </div>
           <p className="mt-4">
-            We only need one photo of the wall, but keep in mind that the one
-            photo should capture the entire route. The Algorithm will detect all
-            the holds captured in the photo, not just holds relating to certain
-            routes.
+            We need a dataset of 20 photos to support future improvements to our
+            product. By capturing the climbing wall from various angles and
+            lighting conditions, we can enhance the algorithm&apos;s ability to
+            generalize and identify holds more effectively. While this
+            won&apos;t directly impact the current model, it will help refine
+            and expand the system in future versions.
           </p>
           <div className="mt-4 grid grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4">
             <div className="row-start-1 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              We only need one picture of the wall.
+              We only need 20 pictures of the wall.
             </div>
             <div className="row-start-3 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              Ensure that none of the hplds are cut off or blurry.
+              Ensure that none of the holds are cut off or blurry.
             </div>
             <div className="row-start-5 md:row-start-1 bg-black text-white px-2 py-1 rounded-md text-center font-bold text-xs md:text-sm">
-              Have a photo that has the top to bottom in one shot
+              Have photos that have the top to bottom in one shot
             </div>
 
             {/* Images */}
@@ -113,7 +115,7 @@ export default function Page() {
             photos.
           </p>
           <p className="mt-2">
-            When it&apos;s published, we will be riunning an Artificial
+            When it&apos;s published, we will be running an Artificial
             Intelligence Algorithm over the image to detect the holds and the
             grades of the routes.
           </p>
