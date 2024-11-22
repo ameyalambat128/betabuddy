@@ -1,5 +1,6 @@
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { BackgroundLines } from "@/components/ui/background-lines";
+import { Compare } from "@/components/ui/compare";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,13 +27,25 @@ export default function Home() {
                   >
                     Get access to the best climbing resources
                   </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-4">
-                    <Image
+                  <CardItem
+                    translateZ="100"
+                    className="w-full mt-4 flex items-center justify-center"
+                  >
+                    {/* <Image
                       src="/images/sample.JPG"
                       height="2000"
                       width="1000"
                       className="h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
+                    /> */}
+                    <Compare
+                      firstImage="/images/betabuddy-home-before.jpg"
+                      secondImage="/images/betabuddy-home-after.jpg"
+                      firstImageClassName="object-cover object-left-top"
+                      secondImageClassname="object-cover object-left-top"
+                      className="md:h-[500px] md:w-[420px]"
+                      slideMode="hover"
+                      autoplay={true}
                     />
                   </CardItem>
                   <div className="flex justify-between items-center mt-20">
